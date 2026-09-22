@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 
 # ---------- Train model silently (no output shown) ----------
-df = pd.read_csv(placementdata (1).csv)
+df = pd.read_csv(r"C:\Users\Dia\OneDrive\Desktop\imran\placementdata (1).csv")
 
 df = df[["CGPA", "Internships", "Projects", "Workshops/Certifications",
          "ExtracurricularActivities", "PlacementTraining", "PlacementStatus"]]
